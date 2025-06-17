@@ -45,3 +45,15 @@ Thus, you could obtain the following nice examples:
 
 
 **We believe the details provided are clear enough to reproduce the main findings of our paper.**
+
+```bib
+@misc{semenov2025gradientnormalizedsmoothnessoptimizationapproximate,
+      title={Gradient-Normalized Smoothness for Optimization with Approximate Hessians}, 
+      author={Andrei Semenov and Martin Jaggi and Nikita Doikov},
+      year={2025},
+      eprint={2506.13710},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      url={https://arxiv.org/abs/2506.13710}, 
+}
+```
