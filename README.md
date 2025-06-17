@@ -1,4 +1,5 @@
 # Supplementary code for "Gradient-Normalized Smoothness for Optimization with Approximate Hessians"
+[![arXiv](https://img.shields.io/badge/arXiv-2401.06766-b31b1b.svg)](https://arxiv.org/abs/2506.13710)
 
 This code comes jointly with reference:
 
