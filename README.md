@@ -1,11 +1,15 @@
 # Supplementary code for "Gradient-Normalized Smoothness for Optimization with Approximate Hessians"
 [![arXiv](https://img.shields.io/badge/arXiv-2401.06766-b31b1b.svg)](https://arxiv.org/abs/2506.13710)
+[![BibTeX](https://img.shields.io/badge/BibTeX-Citation-green)](#contact--reference)
 
 This code comes jointly with reference:
 
 > Andrei Semenov, Martin Jaggi, Nikita Doikov.
 
 Date:    June 2025
+
+**Abstract:**
+> In this work, we develop new optimization algorithms that use approximate second-order information combined with the gradient regularization technique to achieve fast global convergence rates for both convex and non-convex objectives. The key innovation of our analysis is a novel notion called Gradient-Normalized Smoothness, which characterizes the maximum radius of a ball around the current point that yields a good relative approximation of the gradient field. Our theory establishes a natural intrinsic connection between Hessian approximation and the linearization of the gradient. Importantly, Gradient-Normalized Smoothness does not depend on the specific problem class of the objective functions, while effectively translating local information about the gradient field and Hessian approximation into the global behavior of the method. This new concept equips approximate second-order algorithms with universal global convergence guarantees, recovering state-of-the-art rates for functions with Hölder-continuous Hessians and third derivatives, quasi-self-concordant functions, as well as smooth classes in first-order optimization. These rates are achieved automatically and extend to broader classes, such as generalized self-concordant functions. We demonstrate direct applications of our results for global linear rates in logistic regression and softmax problems with approximate Hessians, as well as in non-convex optimization using Fisher and Gauss-Newton approximations.
 
 ## Structure
 
@@ -46,14 +50,17 @@ Thus, you could obtain the following nice examples:
 
 **We believe the details provided are clear enough to reproduce the main findings of our paper.**
 
+
+## Contact & Reference
+
+Please do not hesitate to reach out to us if you have questions.
+
 ```bib
-@misc{semenov2025gradientnormalizedsmoothnessoptimizationapproximate,
-      title={Gradient-Normalized Smoothness for Optimization with Approximate Hessians}, 
-      author={Andrei Semenov and Martin Jaggi and Nikita Doikov},
-      year={2025},
-      eprint={2506.13710},
-      archivePrefix={arXiv},
-      primaryClass={math.OC},
-      url={https://arxiv.org/abs/2506.13710}, 
+@article{semenov2025gradientnormalizedsmoothness,
+  title={Gradient-{N}ormalized {S}moothness for {O}ptimization with {A}pproximate {H}essians},
+  author={Semenov, Andrei and Jaggi, Martin and Doikov, Nikita},
+  journal={arXiv preprint arXiv:2506.13710},
+  url={https://arxiv.org/abs/2506.13710},
+  year={2025}
 }
 ```
