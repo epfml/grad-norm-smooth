@@ -56,11 +56,11 @@ Thus, you could obtain the following nice examples:
 Please do not hesitate to reach out to us if you have questions.
 
 ```bib
-@article{semenov2025gradientnormalizedsmoothness,
-  title={Gradient-{N}ormalized {S}moothness for {O}ptimization with {A}pproximate {H}essians},
-  author={Semenov, Andrei and Jaggi, Martin and Doikov, Nikita},
-  journal={arXiv preprint arXiv:2506.13710},
-  url={https://arxiv.org/abs/2506.13710},
-  year={2025}
+@inproceedings{semenov2026gradientnormalized,
+  title={{Gradient-Normalized Smoothness for Optimization with Approximate Hessians}},
+  author={Andrei Semenov and Martin Jaggi and Nikita Doikov},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://arxiv.org/abs/2506.13710}
 }
 ```
